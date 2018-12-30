@@ -1,7 +1,8 @@
 {
-	"name": "sample-project",
+	"name": "ashr123-sqe-workshop-2018-exercise-1",
 	"version": "1.0.0",
-	"description": "",
+	"repository": "https://github.com/ashr123/ashr123-sqe-workshop-2018-exercise-1.git",
+	"description": "Show table of js elements",
 	"main": "index.js",
 	"scripts": {
 		"start": "npm run start:dev",
@@ -16,24 +17,31 @@
 			"src/**/*.js"
 		],
 		"instrument": false,
-		"sourceMap": false
+		"sourceMap": true
 	},
-	"author": "",
+	"author": "Roy Ash",
 	"license": "ISC",
 	"dependencies": {
+		"@types/mocha": "^5.2.5",
+		"acorn": "^6.0.4",
 		"assert": "^1.4.1",
 		"escodegen": "^1.11.0",
 		"esprima": "^4.0.0",
-		"jquery": "^3.3.1"
+		"jquery": "^3.3.1",
+		"npm": "^6.5.0",
+		"npm-registry-fetch": "^3.8.0",
+		"socks": "^2.2.2",
+		"ts-node": "^7.0.1",
+		"typescript": "^3.2.2"
 	},
 	"devDependencies": {
 		"cross-env": "^5.2.0",
-		"eslint": "^5.0.1",
+		"eslint": "^5.11.1",
 		"istanbul-instrumenter-loader": "^3.0.1",
 		"mocha": "^5.2.0",
 		"mocha-webpack": "^2.0.0-beta.0",
-		"nyc": "^12.0.2",
-		"webpack": "^4.12.2",
-		"webpack-cli": "^2.1.4"
+		"nyc": "^13.1.0",
+		"webpack": "^4.28.3",
+		"webpack-cli": "^3.1.2"
 	}
 }
